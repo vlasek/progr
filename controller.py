@@ -13,7 +13,7 @@ def button_click():
 
 def button_click2():
     value_x=complex(view.get_value())
-    value_f=view.get_value() # это ввод знака + - * /
+    value_f=view.get_sign() # это ввод знака + - * /
     value_y=complex(view.get_value())
     # model2.init(value_x, value_y, value_f)
     result=model2.calc_complex_numbers(value_x, value_y, value_f)
