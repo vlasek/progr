@@ -14,7 +14,7 @@ def calc_complex_numbers(x, y, f):
 x=(5+4j)
 y=(4+4j)
 f='+'
-print(complex(x))
-print(complex(y))
+# print(complex(x))
+# print(complex(y))
 print(f)
 print(calc_complex_numbers(x, y, f))
