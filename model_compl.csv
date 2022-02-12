@@ -1,0 +1,8 @@
+result = <function calc_complex_numbers at 0x000001E340CDBB80>
+result = <function button_click2 at 0x000001598DE0BE50>
+result = None
+result = (2+3j)(5+0j)-4
+result = (3+4j)(5+0j)-5
+result = (3-4j)(4+6j)-
+result = (2+3j)-(5-6j)=(-3+9j)
+result  (2-3j)-(5+6j)=(-3-9j)
