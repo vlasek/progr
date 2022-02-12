@@ -9,6 +9,7 @@ def button_click():
     value_y = view.get_value()
     # model.init(value_x, value_y, value_f)
     result = model.calculate(value_x, value_y, value_f)
+    log.calculate_logger(value_x, value_f, value_y, result)
     # view.view_data(result, "result")
     print(f'результат операции {value_x} {value_f} {value_y} =  {result}')
 
