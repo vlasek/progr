@@ -1,12 +1,12 @@
 from model import calculate
 from model_complex import calc_complex_numbers
-
+import controller
 
 def calculate_logger(data):               # для модуля model.py
     with open('model_log.csv', 'a') as data:
         data.write(f'result = {calculate}\n')
         
 
-def calc_complex_numbers_logger(data):                # для модуля model_complex
+def calc_complex_numbers_logger(x, y, z, about):                # для модуля model_complex
     with open('model_compl.csv', 'a') as data:
-        data.write(f'result = {calc_complex_numbers}\n')
+        data.write(f'result  {x}{y}{z}={about}\n')
