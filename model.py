@@ -9,6 +9,7 @@ def calculate(x, y, f):
     elif f == '-': return x-y
     elif f == '*': return x*y
     elif f == '/': return x/y
+    elif f!=('+','-','*','/'):return 'Введены не корректные данные'
 
 
 

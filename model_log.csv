@@ -1,7 +1,7 @@
-result = <function calculate at 0x102fd68c0>
 result = 7-3=4.0
 result = 4/2=2.0
 result = 5/5=1.0
 result = 5*4=20.0
 result = 46/2=23.0
 result: 6+7=13.0
+result: 1323*2354=3114342.0
