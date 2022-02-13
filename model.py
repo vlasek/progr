@@ -9,8 +9,9 @@ def calculate(x, y, f):
     elif f == '-': return x-y
     elif f == '*': return x*y
     elif f == '/': return x/y
+    elif f!=('+','-','*','/'):return 'Введены не корректные данные'
 
 
 
-print(calculate(5, 2, f))
+print(calculate(5, 2, 3))
 print(type(f))
