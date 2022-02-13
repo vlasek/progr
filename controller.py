@@ -11,7 +11,8 @@ def button_click():
     result = model.calculate(value_x, value_y, value_f)
     log.calculate_logger(value_x, value_f, value_y, result)
     # view.view_data(result, "result")
-    print(f'результат операции {value_x} {value_f} {value_y} =  {result}')
+    return(result)
+    # print(f'результат операции {value_x} {value_f} {value_y} =  {result}')
 
 
 def button_click2():
@@ -21,4 +22,5 @@ def button_click2():
     # model2.init(value_x, value_y, value_f)
     result = model2.calc_complex_numbers(value_x, value_y, value_f)
     log.calc_complex_numbers_logger(value_x, value_f, value_y, result)
-    print(result)
+    # print(result)
+    return (result)

@@ -1,2 +1,2 @@
 def print_about(result):
-    print(result)
+    print(f'итог: {result}')
