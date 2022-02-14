@@ -1,9 +1,15 @@
-def calc_complex_numbers(element_1, element_2, operation):
-    if operation == '-':
-        return complex(element_1) - complex(element_2)
-    elif operation == '+':
-        return complex(element_1) + complex(element_2)
-    elif operation == '*':
-        return complex(element_1) * complex(element_2)
-    elif operation == '/':
-        return complex(element_1) / complex(element_2)
+
+def calc_complex_numbers(x, y, f):
+    if f == '-':
+        return complex(x) - complex(y)
+    elif f == '+':
+        return complex(x) + complex(y)
+    elif f == '*':
+        return complex(x) * complex(y)
+    elif f == '/':
+        return complex(x) / complex(y)
+    elif f!=('+','-','*','/'):return 'Введены не корректные данные'
+
+
+
+
