@@ -1,7 +1,3 @@
-# x = 6
-# y = 2
-# f = '-'
-
 def calculate(x, y, f):
     x=float(x)
     y=float(y)
@@ -13,5 +9,4 @@ def calculate(x, y, f):
 
 
 
-# print(calculate(5, 2, f))
-# print(type(f))
+
