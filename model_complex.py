@@ -1,4 +1,4 @@
-# request не получисля вставил строчки Сергея
+
 def calc_complex_numbers(x, y, f):
     if f == '-':
         return complex(x) - complex(y)
